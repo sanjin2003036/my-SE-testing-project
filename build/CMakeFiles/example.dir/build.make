@@ -69,28 +69,28 @@ include CMakeFiles/example.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/example.dir/flags.make
 
-CMakeFiles/example.dir/main.cpp.o: CMakeFiles/example.dir/flags.make
-CMakeFiles/example.dir/main.cpp.o: /home/sanjin/Documents/main.cpp
-CMakeFiles/example.dir/main.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sanjin/Documents/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/main.cpp.o -MF CMakeFiles/example.dir/main.cpp.o.d -o CMakeFiles/example.dir/main.cpp.o -c /home/sanjin/Documents/main.cpp
+CMakeFiles/example.dir/apple.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/apple.cpp.o: /home/sanjin/Documents/apple.cpp
+CMakeFiles/example.dir/apple.cpp.o: CMakeFiles/example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sanjin/Documents/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/example.dir/apple.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/example.dir/apple.cpp.o -MF CMakeFiles/example.dir/apple.cpp.o.d -o CMakeFiles/example.dir/apple.cpp.o -c /home/sanjin/Documents/apple.cpp
 
-CMakeFiles/example.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanjin/Documents/main.cpp > CMakeFiles/example.dir/main.cpp.i
+CMakeFiles/example.dir/apple.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/example.dir/apple.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sanjin/Documents/apple.cpp > CMakeFiles/example.dir/apple.cpp.i
 
-CMakeFiles/example.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanjin/Documents/main.cpp -o CMakeFiles/example.dir/main.cpp.s
+CMakeFiles/example.dir/apple.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/example.dir/apple.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sanjin/Documents/apple.cpp -o CMakeFiles/example.dir/apple.cpp.s
 
 # Object files for target example
 example_OBJECTS = \
-"CMakeFiles/example.dir/main.cpp.o"
+"CMakeFiles/example.dir/apple.cpp.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
 
-example: CMakeFiles/example.dir/main.cpp.o
+example: CMakeFiles/example.dir/apple.cpp.o
 example: CMakeFiles/example.dir/build.make
 example: lib/libgtest_main.a
 example: lib/libgtest.a

@@ -226,29 +226,29 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+apple.o: apple.cpp.o
+.PHONY : apple.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.cpp.o
-.PHONY : main.cpp.o
+apple.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/apple.cpp.o
+.PHONY : apple.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+apple.i: apple.cpp.i
+.PHONY : apple.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.cpp.i
-.PHONY : main.cpp.i
+apple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/apple.cpp.i
+.PHONY : apple.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+apple.s: apple.cpp.s
+.PHONY : apple.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.cpp.s
-.PHONY : main.cpp.s
+apple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/apple.cpp.s
+.PHONY : apple.cpp.s
 
 # Help Target
 help:
@@ -267,9 +267,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... apple.o"
+	@echo "... apple.i"
+	@echo "... apple.s"
 .PHONY : help
 
 
